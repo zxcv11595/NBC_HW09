@@ -1,0 +1,41 @@
+{
+    "version": "2.1.0",
+    "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+    "runs": [
+        {
+            "results": [
+                {
+                    "ruleId": "C4876",
+                    "message": {
+                        "text": "문자열 리터럴에 불완전하거나 잘못된 멀티바이트 문자가 있습니다. 이러한 바이트 값을 유지하려면 이스케이프 시퀀스를 사용하세요."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///D:/Github/NBC_HW09/NBC_HW09/Source/NBC_HW09/PlayerState/NBPlayerState.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/Github/NBC_HW09/NBC_HW09/Source/NBC_HW09/PlayerState/NBPlayerState.cpp"
+                                },
+                                "region": {
+                                    "startLine": 31,
+                                    "startColumn": 48
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "tool": {
+                "driver": {
+                    "name": "MSVC",
+                    "shortDescription": {
+                        "text": "Microsoft Visual C++ Compiler Warnings/Errors"
+                    },
+                    "informationUri": "https://docs.microsoft.com/cpp/error-messages/compiler-errors-1/c-cpp-build-errors"
+                }
+            }
+        }
+    ]
+}

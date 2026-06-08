@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\github\\nbc_hw09\\nbc_hw09\\intermediate\\build\\win64\\unrealeditor\\inc\\nbc_hw09\\uht\\nbplayercontroller.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\github\\nbc_hw09\\nbc_hw09\\intermediate\\build\\win64\\x64\\nbc_hw09editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\github\\nbc_hw09\\nbc_hw09\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\nbc_hw09\\definitions.nbc_hw09.h",
+            "d:\\github\\nbc_hw09\\nbc_hw09\\source\\nbc_hw09\\controller\\nbplayercontroller.h",
+            "d:\\github\\nbc_hw09\\nbc_hw09\\intermediate\\build\\win64\\unrealeditor\\inc\\nbc_hw09\\uht\\nbplayercontroller.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
